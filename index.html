@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/index.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg nvnv">
+            <div class="container">
+                <a class="navbar-brand d-flex" href="#">
+                    <img src="/Image/download.png" alt="">
+                    <div class="logo">
+                        <h1 class="title">Weather</h1>
+                        <small>tagline goes here</small>
+                    </div>
+                </a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link m-1 active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link m-1" href="#">News</a>
+                        <a class="nav-link m-1" href="#">Live cameras</a>
+                        <a class="nav-link m-1" href="#">Photos</a>
+                        <a class="nav-link m-1" href="#">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="bkground">
+        <div class="container">
+            <div class="search">
+                <input id="search" class="w-100" type="text" placeholder="Find your location..." id="search">
+                <button type="button" class="btn btn-primary">Find</button>
+            </div>
+        </div>
+    </div>
+    <div class="timetable">
+        <div class="container">
+            <div class="row g-0 gy-4" id="timetabel">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="search">
+                        <input class="w-100" type="text" placeholder="Enter your email to subscribe..." id="search">
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="social-links d-flex justify-content-around align-items-center">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <p class="text-center">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
