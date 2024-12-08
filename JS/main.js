@@ -31,9 +31,9 @@ function display(a, b, c ,d) {
                 <div class="body-icon"><img width="90" src="${result.current.condition.icon}" alt=""></div>
             </div>
             <div class="sky">${result.current.condition.text}</div>
-            <span id="rain"><img src="/Image/icon-umberella.png" alt="">${result.current.wind_degree}%</span>
-            <span id="wind"><img src="/Image/icon-wind.png" alt="">${result.current.wind_kph} km/h</span>
-            <span id="compass"><img src="/Image/icon-compass.png" alt="">${result.current.wind_dir}</span>
+            <span id="rain"><img src="Image/icon-umberella.png" alt="">${result.current.wind_degree}%</span>
+            <span id="wind"><img src="Image/icon-wind.png" alt="">${result.current.wind_kph} km/h</span>
+            <span id="compass"><img src="Image/icon-compass.png" alt="">${result.current.wind_dir}</span>
         </div>
     </div>
 </div>
