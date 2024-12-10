@@ -19,7 +19,7 @@ let s = 'hi'
 
 function display(a, b, c ,d) {
     timetabel.innerHTML = `<div class="col-md-4">
-    <div class="today">
+    <div class="today rounded">
         <div class="head d-flex justify-content-between">
             <div class="day">${a}</div>
             <div class="date">${d}</div>
@@ -38,7 +38,7 @@ function display(a, b, c ,d) {
     </div>
 </div>
 <div class="col-md-4">
-    <div class="today-2">
+    <div class="today-2 rounded">
         <div class="head-2">
             <div class="day">${b}</div>
         </div>
@@ -53,7 +53,7 @@ function display(a, b, c ,d) {
     </div>
 </div>
 <div class="col-md-4">
-    <div class="today-3">
+    <div class="today-3 rounded">
         <div class="head-3">
             <div class="day">${c}</div>
         </div>
